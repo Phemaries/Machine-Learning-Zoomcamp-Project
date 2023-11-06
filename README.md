@@ -45,3 +45,7 @@ Upon hypermetric tuning for RandomForest the model `RandomForestClassifier(n_est
 * Install all packages `pip install [packages]`
 * `pip freeze > requirements.txt` to create `requirement.txt` file
 * run `python predict_test.py`
+
+
+### Future Scope
+* Containerization and Deployment to Cloud
