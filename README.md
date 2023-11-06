@@ -38,7 +38,7 @@ All selected models were fine-tuned and the `Precison_Recall` curve was plotted 
 Upon hypermetric tuning for RandomForest the model `RandomForestClassifier(n_estimators=120, random_state=42, n_jobs=-1, max_depth = 5)` has an accuracy of 70.22%. Run on `train.py` file
 
 ### Model and Deployment to Flask
-* The best model is saved into `model.pkl` with the `dv` and `modelrf1 features.
+* The best model is saved into `model.pkl` with the `dv` and `modelrf1` features.
 * waitress-serve --listen=0.0.0.0:9696 predict:app
 * Create a virtual environment using: python -m venv env
 * In project directory run `venv\Scripts\activate`
